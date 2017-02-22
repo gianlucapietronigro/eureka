@@ -1,0 +1,6 @@
+qx<-function(x,h,k,lx ) #h<k ; h\kqx
+{
+ifelse(k!=0,qx<-(lx[x+h+1]-lx[x+h+k+1])/lx[x+1],
+qx<-lx[x+h+1]/lx[x+1]) 
+qx
+}
